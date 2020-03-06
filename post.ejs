@@ -1,0 +1,20 @@
+<%-include('partials/header')-%>
+
+<form class="form" autocomplete="off" action="/post" method="POST">
+
+        <label>Name</label>
+        <input type="text" class="form-textbox" name="postName" required />
+
+        <label>Instagram Id(Optional)</label>
+        <input type="text" class="form-textbox" name="instaid"  />
+
+        <label>Message</label>
+        <textarea type="text" class="form-textbox" id="messageBox" name="postMessage" rows="7" required></textarea>
+
+        <button type="submit" class="btn btntwo btn-outline-danger">Confess</button>
+    
+
+</form>
+
+
+<%-include('partials/footer')-%>

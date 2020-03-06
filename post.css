@@ -1,0 +1,46 @@
+main {
+    position: relative;
+}
+
+label, input {
+    display: block;
+}
+
+.form label {
+    font-family: 'Lacquer', sans-serif;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.form input[type="text"], .form textarea[type="text"] {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.form-textbox {
+    font-family: 'Spartan';
+    font-weight: 300;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-textbox:focus {
+    outline-style: none;
+    border-color: #FF1744;
+}
+
+.btn {
+    background-color: #FF1744;
+    color: white;
+    margin-top: 0.6rem;
+    border-radius: 0.6rem;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+}
+
+.btn--Write {
+    position: absolute;
+    right: 0;
+}

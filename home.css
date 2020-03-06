@@ -1,0 +1,60 @@
+.posts {
+    margin-top: 6rem;
+}
+
+.post {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 15px 10px 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.post--name {
+    margin: 0 0 0.6rem;
+    position: sticky;
+    top: 0;
+    display: block;
+    background-color: white;
+}
+
+/* .post--name__sticky {
+    position: sticky;
+    top: 0;
+    display: block;
+    background-color: white;
+} */
+
+.post--InstaId {
+    position: absolute;
+    right: 1rem;
+    margin: 0;
+    color: black;
+    display: block;
+   
+}
+
+.post--InstaId a {
+    display: block;
+    color: #FF1744;
+    text-decoration: none;
+}
+
+.post--message {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Spartan';
+    font-weight: 300;
+    margin: 1.8rem 0 1rem;
+}
+
+.post--date {
+    position: absolute;
+    bottom: 0.5rem;
+    margin: 0;
+    font-family: 'Spartan';
+    font-weight: 300;
+    display: block;
+    right: 1rem;
+}

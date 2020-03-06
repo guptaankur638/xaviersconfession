@@ -1,0 +1,20 @@
+<%-include('partials/header')-%>
+
+<a class="btn btn--Write" href="/post" role="button">Write</a>
+<section class="posts">
+    
+    <%postBody.slice().reverse().forEach(function(post){ %>
+    <div class="post">
+       
+        <h2 class="post--name post--name_sticky"><b><%=post.name%></b></h2>
+ 
+        <h5 class="post--InstaId">
+            <a href="https://www.instagram.com/<%=post.instaid%>"><%=post.instaid%></a>
+        </h5>
+        <p class="post--message"><%=post.message%> </p>
+        <h6 class="post--date"><%=post.dateData%></h6>
+    </div>
+    
+    <%});%>
+</section>
+<%-include('partials/footer')-%>
